@@ -24,10 +24,9 @@ const Projects = () => {
       <Stack
         id="projects"
         sx={{
-          px: 3,
+          px: { xs: 3, sm: 3, md: 6, lg: 13 },
           py: 6,
           mt: 6,
-          height: "calc(100vh - 74px)",
         }}
         spacing={6}
       >
@@ -48,7 +47,7 @@ const Projects = () => {
           spacing={{ xs: 3, sm: 3, md: 2 }}
         >
           {projectData.map((item, index) => (
-            <Grid2 key={index} size={{ xs: 12, sm: 12, md: 3 }}>
+            <Grid2 key={index} size={{ xs: 12, sm: 12, md: 6, lg: 4 }}>
               <Maincard
                 onClick={() => {
                   setDialogState(true);

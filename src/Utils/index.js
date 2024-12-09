@@ -1,7 +1,9 @@
-import { Airdrop, ChartCircle, Courthouse } from "iconsax-react";
+import { Airdrop, ChartCircle, Courthouse, Map, Video } from "iconsax-react";
 import AirPulse from "Assets/air_pulse_img.jpg";
 import Momentum from "Assets/momentum_image.jpg";
 import Democratic_India from "Assets/democratic_india_img.jpg";
+import Loom from "Assets/loom_image.jpg";
+import Trails from "Assets/trails_image.jpg";
 
 export const projectData = [
   {
@@ -49,5 +51,37 @@ export const projectData = [
     image: Momentum,
     github: "https://github.com/manbac13/momentum",
     live: "https://momentum-theta.vercel.app/",
+  },
+  {
+    project_name: "Loom",
+    subtitle: "A movie exploration app with seamless search and details.",
+    tech_used: [
+      "React",
+      "Axios",
+      "Redux Toolkit",
+      "React Router",
+      "Material UI",
+    ],
+    card_desc: "Discover movies, cast details, and more with ease.",
+    description: "",
+    overview:
+      "Loom is an engaging movie exploration application powered by the TMDB API. It enables users to search for movies, view detailed information about their cast, and organize their cinematic discoveries. The app features a sleek and responsive interface designed with Material UI, efficient state management through Redux Toolkit, and robust API integration using Axios for a seamless user experience.",
+    icon: <Video size="32" color="#0073e6" />,
+    image: Loom,
+    github: "https://github.com/manbac13/loom",
+    live: "https://loom-six.vercel.app/",
+  },
+  {
+    project_name: "Trails",
+    subtitle: "An interactive map showcasing UNESCO World Heritage sites.",
+    tech_used: ["React", "React-Leaflet", "Material UI"],
+    card_desc: "Discover UNESCO World Heritage sites.",
+    description: "",
+    overview:
+      "Trails is an interactive mapping application that highlights UNESCO World Heritage sites worldwide. Built with React-Leaflet for dynamic maps, users can explore locations and view detailed information about each site. The application combines Material UI for a sleek and responsive design with React for seamless rendering, offering a visually rich and informative user experience. Trails serves as a gateway to cultural exploration through technology.",
+    icon: <Map size="32" color="#0073e6" />,
+    image: Trails, // Replace with the appropriate variable for your image
+    github: "https://github.com/manbac13/trails", // Replace with the actual GitHub link
+    live: "https://trails-rouge.vercel.app/", // Replace with the actual live link
   },
 ];
